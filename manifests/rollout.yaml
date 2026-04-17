@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/2amazing4me/ci_cd_lab:latest
+          image: ghcr.io/2amazing4me/go-simple-webserver@sha256:3c5b0a9909a0c2558c527db2fb9d07782feb8b107a47f6cbf5464d1780d63b97
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
